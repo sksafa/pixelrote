@@ -1,0 +1,29 @@
+import { overviewPoints } from "@/data/googleAdsData";
+import MotionWrapper from "./MotionWrapper";
+
+export default function GoogleOverview() {
+  return (
+    <section id="overview" className="bg-[#f8fbff] px-4 py-16 md:px-8 md:py-24">
+      <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2 lg:gap-14">
+        <MotionWrapper>
+          <h2 className="mb-5 text-3xl font-extrabold leading-tight tracking-tight text-slate-950 md:text-5xl">Google Ads that target people already searching for your service.</h2>
+          <p className="mb-4 text-base leading-8 text-slate-600 md:text-lg">Our Google Ads service is designed for businesses that want fast visibility, better-quality leads, and stronger return from paid search advertising.</p>
+          <p className="text-base leading-8 text-slate-600 md:text-lg">This is not guesswork. We build campaigns around real search intent, profitable keywords, clear ad messaging, and conversion-focused tracking.</p>
+          <ul className="my-7 grid gap-4">
+            {overviewPoints.map((point) => (
+              <li key={point} className="flex gap-3 font-semibold text-slate-700"><span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-blue-100 text-sm font-black text-[#1a73e8]">✓</span>{point}</li>
+            ))}
+          </ul>
+          <a href="#contact" className="inline-flex rounded-full bg-[#1a73e8] px-6 py-3.5 font-bold text-white shadow-lg shadow-blue-500/25 transition-all duration-300 hover:-translate-y-1 hover:bg-[#1558b0]">Start Google Ads Project</a>
+        </MotionWrapper>
+        <MotionWrapper delay={0.14}>
+          <div className="rounded-[28px] bg-white p-8 shadow-xl shadow-slate-900/5 transition duration-300 hover:-translate-y-2 md:p-10">
+            <div className="mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-[#eaf3ff] text-3xl">🔎</div>
+            <h3 className="mb-3 text-2xl font-extrabold text-slate-950">Why Google Ads matter</h3>
+            <p className="leading-8 text-slate-500">Google Ads place your business in front of customers at the exact moment they are searching for your product or service, making it one of the fastest channels for high-intent traffic.</p>
+          </div>
+        </MotionWrapper>
+      </div>
+    </section>
+  );
+}
