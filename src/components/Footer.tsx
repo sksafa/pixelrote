@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 type NavItem = {
   title: string;
@@ -46,6 +47,25 @@ export default function Footer() {
               A full-service digital marketing agency helping businesses grow
               with SEO, ads, websites, software, and AI automation.
             </p>
+            <div className="mt-5 flex gap-3">
+              <a
+                href="https://www.facebook.com/profile.php?id=61583165156377"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-all duration-300 hover:bg-blue-600 hover:text-white"
+              >
+                <FaFacebookF />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/company/pixel-route/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-all duration-300 hover:bg-blue-700 hover:text-white"
+              >
+                <FaLinkedinIn />
+              </a>
+            </div>
           </div>
 
           {/* Company */}
@@ -60,6 +80,9 @@ export default function Footer() {
 
         <p className="border-t border-white/10 pt-6 text-center text-sm text-white/55">
           © 2026 PixelRoute. All rights reserved.
+        </p>
+        <p className="mt-[-20px] text-end text-sm text-white/55">
+          Design & Development by Anbar Software.
         </p>
       </div>
     </footer>

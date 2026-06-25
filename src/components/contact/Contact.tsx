@@ -33,8 +33,9 @@ const initialForm: FormData = {
 
 const contactInfo: [typeof Mail, string, string][] = [
   [Mail, "Email", "info@pixelroute.com"],
-  [Phone, "Phone", "+1 347 337 0881"],
-  [MapPin, "Office", "520 Quinn Ln, Woodbridge, VA, United States, 22193"],
+  [Phone, "Bangladesh", "+880 1331-520263"],
+  [Phone, "United States", "+1 571-513-9842"],
+  [Phone, "Germany ", "+49 177 7226199"],
 ];
 
 export default function Contact() {
@@ -43,7 +44,7 @@ export default function Contact() {
   const [successMsg, setSuccessMsg] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
-  const whatsappNumber = "13473370881"; // ekhane tomar WhatsApp number dao
+  const whatsappNumber = "8801331520263"; // ekhane tomar WhatsApp number dao
 
   const validateField = (name: keyof FormData, value: string) => {
     let error = "";
@@ -146,7 +147,7 @@ ${form.message}
 
   return (
     <section id="contact" className="bg-slate-50 py-20 lg:py-24">
-      <div className="mx-auto grid w-[min(1180px,92%)] gap-8 lg:grid-cols-[.9fr_1.1fr]">
+      <div className="mx-auto items-start grid w-[min(1180px,92%)] gap-8 lg:grid-cols-[.9fr_1.1fr]">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-lg shadow-slate-900/5">
           <span className="mb-5 inline-flex rounded-full bg-violet-100 px-4 py-2 text-sm font-extrabold text-violet-700">
             Contact

@@ -135,9 +135,10 @@ export default function AboutUs() {
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-white/70">
-              PixelRoute holo ekta full-service digital agency. Amra SEO,
-              marketing, website, ERP, eCommerce and AI automation solution diye
-              business growth accelerate kori.
+              PixelRoute is a full-service digital agency. We help businesses
+              accelerate growth through SEO, performance marketing, custom
+              websites, ERP, eCommerce, and AI-powered automation — all under
+              one roof.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -243,14 +244,15 @@ export default function AboutUs() {
             </span>
 
             <h2 className="text-3xl font-extrabold leading-tight md:text-5xl">
-              Marketing, software and automation — sob kichu ek jaygay.
+              Marketing, software and automation — everything in one place.
             </h2>
 
             <p className="mt-5 leading-8 text-slate-600">
-              Amra sudhu service provide kori na, amra business er problem bujhe
-              complete digital solution create kori. SEO theke paid ads, website
-              theke ERP, eCommerce theke AI automation — protita kaj performance
-              and business growth er upor focus kore build kora hoy.
+              We don&apos;t just deliver services — we understand your business
+              challenges and create complete digital solutions tailored to drive
+              real results. From SEO and paid ads to custom websites, ERP
+              systems, eCommerce platforms, and AI automation, every project is
+              built with performance and business growth at the center
             </p>
 
             <div className="mt-7 grid gap-4">
@@ -277,33 +279,33 @@ export default function AboutUs() {
           <SectionHeading
             badge="Our Values"
             title="Why businesses choose us"
-            text="Amader goal holo measurable growth, modern design and smart automation solution provide kora."
+            text="Our goal is to deliver measurable growth, modern design, and smart automation — consistently and without compromise."
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             <ValueCard
               icon={Rocket}
               title="Growth First"
-              text="Protita project er focus thake lead, sales and business growth."
+              text="Every project is oriented around one outcome: more leads, more sales, more growth for your business."
             />
 
             <ValueCard
               icon={ShieldCheck}
               title="Reliable Execution"
-              text="Clean process, proper communication and quality maintain kori."
+              text="Clean processes, clear communication, and uncompromising quality from kickoff to delivery."
             />
 
             <ValueCard
               icon={Sparkles}
               title="Smart Automation"
-              text="AI and automation diye manual work komiye efficiency barai."
+              text="We use AI and automation to eliminate manual work, so your team can focus on what matters most."
             />
           </div>
         </div>
       </section>
 
       {/* TEAM */}
-      <section className="bg-slate-950 px-4 py-16 text-white md:px-8 md:py-24">
+      {/* <section className="bg-slate-950 px-4 py-16 text-white md:px-8 md:py-24">
         <div className="mx-auto max-w-7xl">
           <SectionHeading
             badge="Our Team"
@@ -346,7 +348,7 @@ export default function AboutUs() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* PROCESS */}
       <section className="px-4 py-16 md:px-8 md:py-24">
@@ -354,7 +356,7 @@ export default function AboutUs() {
           <SectionHeading
             badge="Our Process"
             title="How we work"
-            text="Clear process follow korar karone protita project smoothly complete hoy."
+            text="A clear, repeatable process ensures every project is delivered smoothly, on time, and to the highest standard."
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-4">
@@ -362,22 +364,22 @@ export default function AboutUs() {
               {
                 step: "01",
                 title: "Discovery",
-                text: "Business, goal and audience analysis kori.",
+                text: "We analyse your business, goals, and target audience in depth before anything else.",
               },
               {
                 step: "02",
                 title: "Strategy",
-                text: "Best roadmap and execution plan create kori.",
+                text: "We build the best roadmap and execution plan for your specific situation and objectives.",
               },
               {
                 step: "03",
                 title: "Execution",
-                text: "Marketing, development and automation implement kori.",
+                text: "Marketing campaigns, development, and automation are implemented with precision.",
               },
               {
                 step: "04",
                 title: "Optimize",
-                text: "Performance analyze kore scaling and improvement kori.",
+                text: "We analyse performance data and continuously improve to maximise your results.",
               },
             ].map((item, index) => (
               <motion.div
@@ -414,8 +416,9 @@ export default function AboutUs() {
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl leading-8 text-white/85">
-            Website, marketing, ERP, eCommerce or AI automation — tomar business
-            er jonno best solution niye amader sathe kotha bolo.
+            Whether you need a website, marketing campaigns, an ERP, an
+            eCommerce platform, or AI automation — let&apos;s talk about the
+            right solution for your business.
           </p>
 
           <Link
